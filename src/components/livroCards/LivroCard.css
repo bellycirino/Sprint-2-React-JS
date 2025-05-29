@@ -1,0 +1,19 @@
+.livro-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 250px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgb(red, green, blue);
+    transition: transform 0.25;
+}
+
+.livro-card:houver {
+    transform: scale(1.05);
+}
+
+.livro-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 6px 0;
+}

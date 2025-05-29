@@ -1,0 +1,62 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+
+.hearder {
+  background-color: #e93636;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0,0.6);
+}
+
+.hearder h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #00ffd5;
+  text-shadow: 2px 2px 5px rgba(0, 255, 213,0.4 );
+}
+
+.App{
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 50px 20px;
+}
+
+.busca input{
+  padding: 15px 20px;
+  border-radius: 12px;
+  border: 2px solid #00ffd5;
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  font-size: 18px;
+  width: 300px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.busca input:focus{
+  border-color: #00ffaa;
+  box-shadow: 0 0 10px #00ffd5;
+}
+
+.livros {
+  margin-top: 40px;
+  background-color: #932a2a;
+  padding: 20px;
+  border-radius: 15px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.livros p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
